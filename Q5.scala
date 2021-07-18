@@ -4,7 +4,7 @@ object Q5 {
   def main(args:Array[String]){
     print("Enter number :")
 		val n=scala.io.StdIn.readInt()
-		Sum(10)
+		Sum(n)
 	}
   def Sum(n:Int,i:Int=2,result:Int=0):Any = {
     if(n<1){
